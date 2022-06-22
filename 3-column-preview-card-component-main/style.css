@@ -1,0 +1,82 @@
+body {
+    color: white;
+    
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    height: 45vh;
+    width: 70vw;
+    min-width: 600px;
+    min-height: 300px;
+    border-radius: 5px;
+    overflow: hidden;
+    
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    
+    transform: translate(-50%, -50%);
+}
+
+.container-item {
+    display: grid;
+    min-height: 50%;
+    grid-template-rows: auto 20px auto auto;
+    row-gap: 8%;
+    justify-content: space-between;
+    align-items: center;
+    
+    padding: 1.75em;
+    
+}
+
+.learn-more-button {
+    display: flex;
+    background: white;
+    border-radius: 40px;
+    min-width: 14vw;
+    min-height: 4vh;
+    width: 14vw;
+    justify-content: center;
+    align-items: center;
+
+    font-family: 'Dongle', sans-serif;
+    font-family: 'Outfit' , sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+    
+    color: var(--class--item--bg);
+}
+
+#sedans {
+    --class--item--bg: rgb(243, 115, 29);
+    background: rgb(243, 115, 29);
+}
+
+#suvs {
+    --class--item--bg: rgb(0, 85, 119);
+    background: rgb(0, 85, 119);
+}
+#luxury {
+    --class--item--bg: rgb(0, 88, 69);
+    background: rgb(0, 88, 69);
+}
+
+p {
+    font-family: 'Dongle', sans-serif;
+    font-family: 'Outfit' , sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+}
+
+h2 {
+    font-family: 'Big Shoulders Display', cursive;
+    
+    font-weight: 700;
+}
+
+.attribution {
+    color: black;
+}
